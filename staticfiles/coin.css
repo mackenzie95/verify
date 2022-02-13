@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+}
+
+#head {
+    background-color: #0073e6;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.nav {
+    padding-top: 5px;
+    border: solid 2px white;
+    text-align: center;
+    padding-left: 5px;
+    width: 28px;
+    margin-left: 250px;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    margin-top: -25px;
+}
+
+.line {
+    background-color: white;
+   height: 1px;
+    padding: 1px;
+    margin-bottom: 3px;
+    width: 20px;
+    border-radius: 10px;
+    
+}
+
+.coin {
+    font-size: 25px;
+    color: white;
+}
+
+#sign {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+.data {
+    height: 3em;
+    width: 310px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: solid 1px #e0e0eb;
+    padding-left: 10px;
+}
+
+.login {
+    height: 3em;
+    width: 75px;
+    margin-left: 258px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: solid 1px;
+    background-color: #0073e6;
+    color: white;
+}
+
+#save {
+    font-size: 13px;
+    color: #9494b8;
+    
+}
+
+.bottom {
+    padding: 5px;
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding-bottom: 500px;
+}
+
+.save {
+    transform: translateY(-220%);
+    margin-left: 12px;
+}
+
+#forgot {
+    font-size: 14px;
+}
+
+.close {
+	font-size: 13px;
+	color: red;
+	margin-left: 10px;

